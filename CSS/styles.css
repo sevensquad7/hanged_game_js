@@ -1,0 +1,54 @@
+body{
+    padding: 1rem;
+    margin-top: 5rem;
+    background-color: aqua;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.contenedor{
+    background-color: white;
+    border-radius: 60px;
+    height: 80vh;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.titulo{
+    font-size: 60px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blueviolet;
+}
+.palabra{
+    font-size: 50px;
+    margin: 0.4rem;
+}
+.abecedario{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-end;
+    padding: 1rem;
+    margin: 0.4rem;
+}
+.letra{
+    padding: 1rem;
+    margin: 0.4rem;
+    background-color: blueviolet;
+    height: 15px;
+    width: 15px;
+    font-size: 20px;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color ease-in 0.1s;
+}
+.letra:hover{
+    background-color: rgb(245, 120, 234);
+    color: black;
+}
